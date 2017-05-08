@@ -1,10 +1,9 @@
 * {
     font-family: 'Lato', sans-serif;
-    background-color: tan;
+    background-color: #0C6291;
 }
 
 p.design {
-  color: #800020;
   border: 8px;
   border-radius: 50px;
   text-align: center;
@@ -13,7 +12,6 @@ p.design {
 
 p{
   transition: 5.0s linear all;
-  background-color: peachpuff;
   height: auto;
 }
 .ng-hide{
