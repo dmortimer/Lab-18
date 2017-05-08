@@ -1,9 +1,7 @@
 <h1>API VIEW !!!</h1>
 <api-directive></api-directive>
 <button type=button ng-click="getJoke()">New Joke</button>
-
-
-
-<p ng-repeat="joke in jokes track by $index">
-{{ joke }}
-</p>
+<input type="checkbox"ng-model="hide">
+<div><p ng-hide="hide" class="test" ng-repeat="joke in jokes track by $index">
+  {{ joke }}
+  </p></div>

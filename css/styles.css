@@ -10,3 +10,12 @@ p.design {
   text-align: center;
   font-size: 25px;
 }
+
+p{
+  transition: 5.0s linear all;
+  background-color: peachpuff;
+  height: auto;
+}
+.ng-hide{
+opacity: 0;
+}
