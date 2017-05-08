@@ -15,8 +15,9 @@ app.factory('challengeService', function() {
             } else if ((i % 5) === 0) {
                 console.log("Fizz");
                 word = "fizz";
-            };
-            // console.log(word);
+            } else {
+                word = i;
+            }
             return word;
 
 

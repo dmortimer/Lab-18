@@ -8,9 +8,5 @@ app.controller('challengeCtrl', function($scope, challengeService) {
         console.log($scope.fizzReturn);
 
 
-    };
-
-
-
-
+    }
 });
