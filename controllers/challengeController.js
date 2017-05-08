@@ -10,3 +10,12 @@ app.controller('challengeCtrl', function($scope, challengeService) {
 
     }
 });
+app.directive('fizzbuzz', function() {
+
+    return {
+        restrict: 'E',
+        replace: false,
+        template: '<p>{{fizzReturn}}</p>'
+    }
+
+});
