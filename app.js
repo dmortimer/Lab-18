@@ -2,7 +2,7 @@ var app = angular.module('appMod', ["ngRoute"]);
 
 app.config(function($routeProvider){
     $routeProvider
-    .when('/challengeveiw', {
+    .when('/challengeview', {
       controller: 'challengeCtrl',
       templateUrl: 'views/challengeView.html'
     })
