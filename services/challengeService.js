@@ -1,6 +1,5 @@
-<<<<<<< HEAD
 var app = angular.module('appMod');
-=======
+
 
 
 for (var i = 1; i <= 100; i++) {
@@ -14,4 +13,3 @@ for (var i = 1; i <= 100; i++) {
     console.log(i);
   }
 }
->>>>>>> 26b651b6f1a113d9c19be2aa050a4058441fd367

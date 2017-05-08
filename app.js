@@ -1,1 +1,17 @@
-var app = angular.module('appMod', []);
+var app = angular.module('appMod', ["ngRoute"]);
+
+app.config(function($routeProvider){
+    $routeProvider
+    .when('/challengeveiw', {
+      controller: 'challengeCtrl',
+      templateUrl: 'views/challengeView.html'
+    })
+    .when('/apiview', {
+      controller: 'apiCtrl',
+      templateUrl: 'views/apiView.html'
+    })
+    .otherwise({
+      redirectTo: '/challengeview'
+    });
+
+});
