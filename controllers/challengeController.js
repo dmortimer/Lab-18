@@ -15,7 +15,7 @@ app.directive('fizzbuzz', function() {
     return {
         restrict: 'E',
         replace: false,
-        template: '<p>{{fizzReturn}}</p>'
+        template: '<p class="design">{{fizzReturn}}</p>'
     }
 
 });
