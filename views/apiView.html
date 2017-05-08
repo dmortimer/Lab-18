@@ -1,9 +1,9 @@
 <h1>API VIEW !!!</h1>
-
+<api-directive></api-directive>
 <button type=button ng-click="getJoke()">New Joke</button>
 
 
 
-<p ng-repeat="joke in jokes">
+<p ng-repeat="joke in jokes track by $index">
 {{ joke }}
 </p>

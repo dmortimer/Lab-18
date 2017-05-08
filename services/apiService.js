@@ -5,7 +5,7 @@ app.factory('apifactory', function($http){
 
   var obj = {};
 obj.getData = function () {
-  return $http.get('https://api.chucknorris.io/jokes/random');
+  return $http.get('https://api.chucknorris.io/jokes/random?category=dev');
   }
   return obj;
 
