@@ -1,8 +1,8 @@
 <h1>CHALLENGE VIEW !!!</h1>
 
-<form ng-submit="">
+<form ng-submit="getNum(enteredNum)" name='fizzForm'>
 
-<input type="number" placeholder="Enter number here..." ng-model="enterNum">
-<button type="submit" name="button">Submit</button>
+<input type="number" ng-required="true" placeholder="Enter number here..." ng-model="enteredNum">
+<button type="submit" ng-disabled="fizzForm.$invalid" name="button">Submit</button>
 
 </form>
